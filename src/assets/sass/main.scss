@@ -5,12 +5,12 @@ body {
     width: 100%;
     height: 100%;
 }
-
-$container-width: 1600px;
-
 .container {
-    max-width: $container-width;
+    max-width: 1600px;
     margin: auto;
+}
+#hero {
+    height: 100vh;
 }
 .fontDisplay {
     font-family: 'Nunito Sans', sans-serif;
@@ -23,6 +23,9 @@ $container-width: 1600px;
 }
 .text-emacityBlueDark {
     color:#1c81ce
+}
+.border-emacityBlue {
+    border-color: #23a1ff;
 }
 a:hover {
     color: #1c81ce;
@@ -71,6 +74,20 @@ a:hover {
     line-height: 82px;
     letter-spacing: -0.1cm;
     text-shadow: 5px 6px 4px rgba(20, 20, 20, 0.8);
+}
+.purple-icons {
+    font-size: 22px;
+}
+.socialIconFooter:hover {
+    color: #1c81ce;
+}
+@media(max-width: 769px) {
+    #companyTitle {
+        font-size: 50px;
+    }
+    #hero {
+        height: unset;
+    }
 }
 @media(max-width: 501px) {
     #companyTitle {

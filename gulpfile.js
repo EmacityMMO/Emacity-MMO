@@ -69,7 +69,7 @@ gulp.task('cacheBust', async function() {
             .pipe(gulp.dest('./public/partials/'))
 });
 
-gulp.task('default', gulp.series('message','copyHtml','imageMin','copyCNAME','scripts','sass','webfonts','cacheBust'));
+gulp.task('default', gulp.series('message','copyHtml','imageMin','scripts','sass','webfonts','cacheBust'));
 
 gulp.task('watch', function(){
   gulp.watch('./src/html/**', gulp.series('copyHtml'));
