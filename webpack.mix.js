@@ -12,8 +12,8 @@ let mix = require('laravel-mix');
  */
 mix.setPublicPath('public');
 
-mix.sass('resources/assets/sass/main.scss', 'public/assets/css')
-   .js('resources/assets/js/nunjucks.js', 'public/assets/js')
+mix.sass('src/assets/sass/main.scss', 'public/assets/css')
+   .js('src/assets/js/nunjucks.js', 'public/assets/js')
    .version();
 
 // Full API

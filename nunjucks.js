@@ -2,13 +2,13 @@ const nunjucks = require("nunjucks");
 const fs = require("fs");
 
 // main pages
-const mainFolder = 'resources/html/';
+const mainFolder = 'src/html/';
 
 //compile main pages into public directory
 fs.readdir(mainFolder, (err, files) => {
     files.forEach(file => {
         if (file.substring(file.length - 4, file.length) == '.njk') {
-            fs.writeFile("public/" + file.substring(0, file.length - 4) + '.html', nunjucks.render("resources/html/" + file), (err, data) => {
+            fs.writeFile("public/" + file.substring(0, file.length - 4) + '.html', nunjucks.render("src/html/" + file), (err, data) => {
                 if (err) throw err;
                 console.log("Compiled " + file.substring(0, file.length - 4) + '.html' + ", bro.");
             });
@@ -18,7 +18,7 @@ fs.readdir(mainFolder, (err, files) => {
 
 //COMMENTED OUT CAUSE NO OTHER DIRECTORY RIGHT NOW
 // portfolio files, compile to public
-// const portfolioFolder = 'resources/html/portfolio/';
+// const portfolioFolder = 'src/html/portfolio/';
 // fs.readdir(portfolioFolder, (err, files) => {
 //     files.forEach(file => {
 //         if (file.substring(file.length - 4, file.length) == '.njk') {

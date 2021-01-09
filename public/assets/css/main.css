@@ -1,4 +1,72 @@
 body {
-  background: pink;
-}
+  background: url("/public/images/bodyBackground.jpg") repeat 0 0;
+  width: 100%;
+  height: 100%; }
 
+.container {
+  max-width: 1600px;
+  margin: auto; }
+
+.fontDisplay {
+  font-family: 'Nunito Sans', sans-serif; }
+
+.fontBody {
+  font-family: 'Heebo', sans-serif; }
+
+.text-emacityBlue {
+  color: #23a1ff; }
+
+.text-emacityBlueDark {
+  color: #1c81ce; }
+
+a:hover {
+  color: #1c81ce; }
+
+.contact-us-today {
+  font-size: 22px; }
+
+#page-screen {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  background-color: rgba(20, 20, 20, 0.1); }
+
+#page-fade {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 18;
+  background: -moz-linear-gradient(-45deg, rgba(24, 22, 120, 0.4) 35%, rgba(3, 11, 20, 0.8) 70%);
+  background: -webkit-linear-gradient(-45deg, rgba(24, 22, 120, 0.4) 35%, rgba(3, 11, 20, 0.8) 70%);
+  background: linear-gradient(135deg, rgba(24, 22, 120, 0.4) 35%, rgba(3, 11, 20, 0.8) 70%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#53ffff', endColorstr='#851719',GradientType=1 ); }
+
+#page-body {
+  position: relative;
+  z-index: 20; }
+
+#companyTitle {
+  margin: 0 0 8px 0;
+  padding: 0;
+  height: auto;
+  color: #fff;
+  font-size: 80px;
+  font-weight: 200;
+  /* font-family: 'Heebo', sans-serif; */
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 82px;
+  letter-spacing: -0.1cm;
+  text-shadow: 5px 6px 4px rgba(20, 20, 20, 0.8); }
+
+@media (max-width: 501px) {
+  #companyTitle {
+    font-size: 50px; } }
