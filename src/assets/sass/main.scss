@@ -1,3 +1,4 @@
+// @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body {
     background: url("/images/bodyBackground.jpg") repeat 0 0;
     // background-size: cover;
@@ -9,6 +10,17 @@ body {
     max-width: 1600px;
     margin: auto;
 }
+video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  z-index: -10;
+}
 #hero {
     height: 100vh;
 }
@@ -18,11 +30,14 @@ body {
 .fontBody {
     font-family: 'Heebo', sans-serif;
 }
+.fontGaming {
+    font-family: 'Press Start 2P', cursive;
+}
 .text-emacityBlue {
     color: #23a1ff;
 }
 .text-emacityBlueDark {
-    color:#1c81ce
+    color:#005da2;
 }
 .border-emacityBlue {
     border-color: #23a1ff;
@@ -66,13 +81,10 @@ a:hover {
     margin: 0 0 8px 0;
     padding: 0;
     height: auto;
-    color: #fff;
     font-size: 80px;
     font-weight: 200;
-    /* font-family: 'Heebo', sans-serif; */
-    font-family: 'Nunito Sans', sans-serif;
     line-height: 82px;
-    letter-spacing: -0.1cm;
+    letter-spacing: 0.1cm;
     text-shadow: 5px 6px 4px rgba(20, 20, 20, 0.8);
 }
 .purple-icons {
@@ -91,6 +103,15 @@ a:hover {
 }
 @media(max-width: 501px) {
     #companyTitle {
-        font-size: 50px;
+        font-size: 31px;
     }
+}
+::-moz-selection { /* Code for Firefox */
+    color: #1c81ce;
+    background: black;
+  }
+  
+::selection {
+    color: #1c81ce;
+    background: black;
 }
