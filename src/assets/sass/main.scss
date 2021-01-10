@@ -68,9 +68,9 @@ a:hover {
     top: 0;
     left: 0;
     z-index: 18;
-    background: -moz-linear-gradient(-45deg, rgba(24, 22, 120, 0.40) 35%, rgba(3, 11, 20, 0.8) 70%);
-    background: -webkit-linear-gradient(-45deg, rgba(24, 22, 120, 0.40) 35%, rgba(3, 11, 20, 0.8) 70%);
-    background: linear-gradient(135deg, rgba(24, 22, 120, 0.40) 35%, rgba(3, 11, 20, 0.8) 70%);
+    background: -moz-linear-gradient(-45deg, rgba(24, 22, 120, 0.80) 35%, rgba(3, 11, 20, 0.8) 70%);
+    background: -webkit-linear-gradient(-45deg, rgba(24, 22, 120, 0.80) 35%, rgba(3, 11, 20, 0.8) 70%);
+    background: linear-gradient(135deg, rgba(24, 22, 120, 0.80) 35%, rgba(3, 11, 20, 0.8) 70%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#53ffff', endColorstr='#851719',GradientType=1 );
 }
 #page-body {
@@ -104,6 +104,10 @@ a:hover {
 @media(max-width: 501px) {
     #companyTitle {
         font-size: 31px;
+    }
+    .contact-us-today {
+        font-size: 14px !important;
+        line-height: 30px !important;
     }
 }
 ::-moz-selection { /* Code for Firefox */
