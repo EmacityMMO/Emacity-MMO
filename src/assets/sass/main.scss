@@ -42,6 +42,9 @@ video
 .border-emacityBlue {
     border-color: #23a1ff;
 }
+.text-otherBlue {
+    color: #1c81ce;
+}
 a:hover {
     color: #1c81ce;
 }
@@ -105,8 +108,11 @@ a:hover {
     #companyTitle {
         font-size: 31px;
     }
+    .intro-about-us {
+        font-size: 10px;
+    }
     .contact-us-today {
-        font-size: 14px !important;
+        font-size: 21px !important;
         line-height: 30px !important;
     }
 }
