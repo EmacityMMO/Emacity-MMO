@@ -97,11 +97,13 @@ a:hover {
     color: #1c81ce;
 }
 @media(max-width: 769px) {
-    #companyTitle {
-        font-size: 50px;
-    }
     #hero {
         height: unset;
+    }
+}
+@media(max-width: 769px) {
+    #companyTitle {
+        font-size: 50px;
     }
 }
 @media(max-width: 501px) {
