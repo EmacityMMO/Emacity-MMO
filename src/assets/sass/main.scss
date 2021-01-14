@@ -57,6 +57,9 @@ body {
 .fontGaming {
     font-family: 'Press Start 2P', cursive;
 }
+.fontSwitcher {
+    font-family: 'Press Start 2P', cursive;
+}
 .text-emacityBlue {
     color: #23a1ff;
 }
@@ -196,22 +199,25 @@ a:hover {
         display: none;
     }
     .intro-about-us {
-        font-size: 10px;
+        font-size: 22px;
         margin-top: 75%;
         background: white;
         background: unset;
+        line-height: 0.7cm;
     }
     .contact-us-today {
-        font-size: 21px !important;
+        font-size: 17px !important;
         line-height: 30px !important;
     }
-    .video
-    {
+    .video {
         height: 39.6vh;
         opacity: 1;
     }
     .internal-video {
         height: 39.6vh;
         opacity: 1;
-      }
+    }
+    .fontSwitcher {
+        font-family: 'Nunito Sans', sans-serif;
+    }
 }
