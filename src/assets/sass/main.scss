@@ -129,6 +129,12 @@ a:hover {
     color: #1c81ce;
     background: black;
 }
+.intro-about-us {
+    
+}
+.intro-about-us-background {
+    position: absolute;
+}
 
 
 // Mobile Responsive
@@ -150,6 +156,7 @@ a:hover {
     .intro-about-us {
         font-size: 10px;
         margin-top: 75%;
+        background: white;
     }
     .contact-us-today {
         font-size: 21px !important;
