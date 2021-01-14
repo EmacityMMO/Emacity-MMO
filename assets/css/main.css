@@ -107,7 +107,8 @@ a:hover {
   font-weight: 200;
   line-height: 82px;
   letter-spacing: 0.1cm;
-  text-shadow: 5px 6px 4px rgba(20, 20, 20, 0.8); }
+  text-shadow: 5px 6px 4px rgba(20, 20, 20, 0.8);
+  display: none; }
 
 .purple-icons {
   font-size: 22px; }
@@ -124,8 +125,48 @@ a:hover {
   color: #1c81ce;
   background: black; }
 
+.intro-about-us {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.03) 30%, black 100%); }
+
 .intro-about-us-background {
   position: absolute; }
+
+.custom-shape-divider-top-1610591865 {
+  position: absolute;
+  top: 39.6vh;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0; }
+
+.custom-shape-divider-top-1610591865 svg {
+  position: relative;
+  display: block;
+  width: calc(185% + 1.3px);
+  height: 55px;
+  transform: rotateY(180deg); }
+
+.custom-shape-divider-top-1610591865 .shape-fill {
+  fill: #E4F9FF99; }
+
+.custom-shape-divider-bottom-1610592222 {
+  position: absolute;
+  top: 35.6vh;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg); }
+
+.custom-shape-divider-bottom-1610592222 svg {
+  position: relative;
+  display: block;
+  width: calc(185% + 1.3px);
+  height: 36px;
+  transform: rotateY(180deg); }
+
+.custom-shape-divider-bottom-1610592222 .shape-fill {
+  fill: #E4F9FF; }
 
 @media (max-width: 1445px) {
   #hero {
@@ -141,7 +182,8 @@ a:hover {
   .intro-about-us {
     font-size: 10px;
     margin-top: 75%;
-    background: white; }
+    background: white;
+    background: unset; }
   .contact-us-today {
     font-size: 21px !important;
     line-height: 30px !important; }
