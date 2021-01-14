@@ -134,7 +134,8 @@ a:hover {
     background: black;
 }
 .intro-about-us {
-    background: linear-gradient(to left, rgba(0,0,0,0.03) 30%,rgba(0,0,0,1) 100%);
+    // background: linear-gradient(to left, rgba(0,0,0,0.03) 30%,rgba(0,0,0,1) 100%);
+    text-shadow: 4px 4px black;
 }
 .intro-about-us-background {
     position: absolute;
@@ -204,6 +205,7 @@ a:hover {
         background: white;
         background: unset;
         line-height: 0.7cm;
+        text-shadow: unset;
     }
     .contact-us-today {
         font-size: 17px !important;
