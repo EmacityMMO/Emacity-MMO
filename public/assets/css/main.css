@@ -174,7 +174,9 @@ a:hover {
 
 @media (max-width: 1445px) {
   #hero {
-    height: unset; } }
+    height: unset; }
+  .video {
+    height: 141vh; } }
 
 @media (max-width: 769px) {
   #companyTitle {
