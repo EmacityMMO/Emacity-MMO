@@ -172,6 +172,10 @@ a:hover {
 .custom-shape-divider-bottom-1610592222 .shape-fill {
   fill: #E4F9FF; }
 
+.compliAssure img {
+  margin: auto;
+  margin-top: 20px; }
+
 @media (max-width: 1445px) {
   #hero {
     height: unset; }
